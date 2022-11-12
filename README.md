@@ -1,7 +1,6 @@
 # E-learning-Django
 
 Live Link:-
-https://edurekanet.herokuapp.com/   
 
 Screenshots:- 
 
@@ -54,9 +53,15 @@ b) Custom Admin Panel
 and many other functionalities in this project...
 
 Before running the project, run these commands, 
- 1) pip install -r requirements.txt   
+ 
+ 1) python -m virtualenv venv
 
- 2) python manage.py migrate   
+ 2) venv\Scripts\activate
 
-3) python manage.py runserver   
+ 3) pip install -r requirements.txt   
 
+ 4) python manage.py makemigrations
+
+ 5) python manage.py migrate
+
+ 6) python manage.py runserver
